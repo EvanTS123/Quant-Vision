@@ -6,7 +6,7 @@ import streamlit as st
 
 def add_big_sidebar_logo(width_px: int = 400):
     base_path = os.path.dirname(os.path.abspath(__file__))
-    logo_path = os.path.join(base_path, "helper.py", "pages", "Assets", "Quant_Vision_Logo.png")
+    logo_path = os.path.join(base_path, "pages", "Assets", "Quant_Vision_Logo.png")
 
     if not os.path.exists(logo_path):
         st.sidebar.error(f"Logo not found: {logo_path}")
@@ -51,4 +51,5 @@ def add_big_sidebar_logo(width_px: int = 400):
         """,
         unsafe_allow_html=True,
     )
+
 
