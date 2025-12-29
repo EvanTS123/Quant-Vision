@@ -1,1 +1,2 @@
-base= "light"
+[theme]
+base = "light"
