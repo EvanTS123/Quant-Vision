@@ -105,7 +105,6 @@ daily_risk_free_rate = get_daily_risk_free_rate(risk_free_rate_ticker)
 annual_risk_free_rate = daily_risk_free_rate * 252
 
 # Display sample of return data
-st.dataframe(daily_stock_returns.sample(10))
 st.dataframe(daily_stock_returns)
 # Run CAPM regression using statsmodels
 
