@@ -5,6 +5,4 @@ yfinance
 statsmodels
 arch
 os
-base64
-PIL
 streamlit
