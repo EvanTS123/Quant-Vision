@@ -5,5 +5,5 @@ matplotlib
 yfinance
 statsmodels
 arch
-os
+
 
