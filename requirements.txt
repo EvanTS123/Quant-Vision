@@ -4,6 +4,3 @@ numpy
 matplotlib
 yfinance
 statsmodels
-arch
-
-
