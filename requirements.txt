@@ -6,5 +6,5 @@ statsmodels
 arch
 os
 base64
-from PIL import Image
-import streamlit as st
+PIL
+streamlit
